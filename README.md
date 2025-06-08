@@ -29,8 +29,8 @@ You can try the live version of the Blue Prince Floorplan Builder  [Blue Prince 
 
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/blueprince-chess.git
-cd blueprince-chess
+git clone https://github.com/rweland/bprincebuilder.git
+cd bprincebuilder
 ```
 
 2. Install dependencies
