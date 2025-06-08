@@ -1,0 +1,828 @@
+{
+  "rooms": [
+    {
+      "id": "50ed1866-a4ac-4f27-9cc9-c1d6cbc9f8ac",
+      "imageUrl": "images/The_Foundation_Icon.png",
+      "name": "The Foundation",
+      "chess": null,
+      "color": "blue",
+      "category": "blueprint"
+    },
+    {
+      "id": "fb2828b9-7e86-4add-8420-07c95bdf5ec6",
+      "imageUrl": "images/Entrance_Hall_Icon.png",
+      "name": "Entrance Hall",
+      "chess": null,
+      "color": "blue",
+      "category": "blueprint"
+    },
+    {
+      "id": "912208d0-c0af-4cd8-bcff-967d8869b65f",
+      "imageUrl": "images/Spare_Room_Icon.png",
+      "name": "Spare Room",
+      "chess": null,
+      "color": "blue",
+      "category": "blueprint"
+    },
+    {
+      "id": "cf8b163d-c006-46a3-867e-a4e14bb21013",
+      "imageUrl": "images/Rotunda_Icon.png",
+      "name": "Rotunda",
+      "chess": null,
+      "color": "blue",
+      "category": "blueprint"
+    },
+    {
+      "id": "ca61d35d-9eb8-4e2c-a015-3511c30a4fb6",
+      "imageUrl": "images/Parlor_Icon.png",
+      "name": "Parlor",
+      "chess": "pawn",
+      "color": "blue",
+      "category": "blueprint"
+    },
+    {
+      "id": "7e6e611f-3f85-4e8f-a08a-c9c389f1efc1",
+      "imageUrl": "images/Billiard_Room_Icon.png",
+      "name": "Billiard Room",
+      "chess": null,
+      "color": "blue",
+      "category": "blueprint"
+    },
+    {
+      "id": "79754480-cc5c-402d-8769-5e5a26754a22",
+      "imageUrl": "images/Gallery_Icon.png",
+      "name": "Gallery",
+      "chess": null,
+      "color": "blue",
+      "category": "blueprint"
+    },
+    {
+      "id": "c4dff69e-7806-4aab-8a77-aaa97f344aac",
+      "imageUrl": "images/Room_8_Icon.png",
+      "name": "Room 8",
+      "chess": null,
+      "color": "blue",
+      "category": "blueprint"
+    },
+    {
+      "id": "78b93294-4376-44ce-8448-b3d1d4c95fa2",
+      "imageUrl": "images/Closet_Icon.png",
+      "name": "Closet",
+      "chess": null,
+      "color": "blue",
+      "category": "blueprint"
+    },
+    {
+      "id": "ea4f52c8-2c39-4c0a-bf74-dd7f1677712a",
+      "imageUrl": "images/Walk-in_Closet_Icon.png",
+      "name": "Walk-in Closet",
+      "chess": "pawn",
+      "color": "blue",
+      "category": "blueprint"
+    },
+    {
+      "id": "971acca2-4bf3-4dee-ab0e-079a74eedd7d",
+      "imageUrl": "images/Attic_Icon.png",
+      "name": "Attic",
+      "chess": "bishop",
+      "color": "blue",
+      "category": "blueprint"
+    },
+    {
+      "id": "a440f16b-ae69-4e42-a2d5-b09592662bd5",
+      "imageUrl": "images/Storeroom_Icon.png",
+      "name": "Storeroom",
+      "chess": "pawn",
+      "color": "blue",
+      "category": "blueprint"
+    },
+    {
+      "id": "a5b28983-a18c-45ba-9ca6-e964c5f93404",
+      "imageUrl": "images/Nook_Icon.png",
+      "name": "Nook",
+      "chess": "rook",
+      "color": "blue",
+      "category": "blueprint"
+    },
+    {
+      "id": "0053c75b-d912-4978-b41a-b2287345d828",
+      "imageUrl": "images/Garage_Icon.png",
+      "name": "Garage",
+      "chess": null,
+      "color": "blue",
+      "category": "blueprint"
+    },
+    {
+      "id": "7ebd65be-f97a-47c4-a4c6-30985d919ec0",
+      "imageUrl": "images/Music_Room_Icon.png",
+      "name": "Music Room",
+      "chess": null,
+      "color": "blue",
+      "category": "blueprint"
+    },
+    {
+      "id": "cb97e769-fa11-4a78-a77c-1f70dcb38133",
+      "imageUrl": "images/Locker_Room_Icon.png",
+      "name": "Locker Room",
+      "chess": null,
+      "color": "blue",
+      "category": "blueprint"
+    },
+    {
+      "id": "a3552ec3-1ec9-456c-b927-9c8bdd9e6990",
+      "imageUrl": "images/Den_Icon.png",
+      "name": "Den",
+      "chess": "pawn",
+      "color": "blue",
+      "category": "blueprint"
+    },
+    {
+      "id": "ac7ecff8-eb75-4a9c-9c77-f608cf848f75",
+      "imageUrl": "images/Wine_Cellar_Icon.png",
+      "name": "Wine Cellar",
+      "chess": null,
+      "color": "blue",
+      "category": "blueprint"
+    },
+    {
+      "id": "31761cec-6c42-4d5c-8bb5-8a658085c21f",
+      "imageUrl": "images/Trophy_Room_Icon.png",
+      "name": "Trophy Room",
+      "chess": null,
+      "color": "blue",
+      "category": "blueprint"
+    },
+    {
+      "id": "8acf7b14-0991-45c7-b99f-7d8453e72329",
+      "imageUrl": "images/Ballroom_Icon.png",
+      "name": "Ballroom",
+      "chess": null,
+      "color": "blue",
+      "category": "blueprint"
+    },
+    {
+      "id": "8847b6db-d808-4623-a164-8ab2edd92588",
+      "imageUrl": "images/Pantry_Icon.png",
+      "name": "Pantry",
+      "chess": null,
+      "color": "blue",
+      "category": "blueprint"
+    },
+    {
+      "id": "a19de3d4-702c-4bfd-8659-365054c2dae8",
+      "imageUrl": "images/Rumpus_Room_Icon.png",
+      "name": "Rumpus Room",
+      "chess": "bishop",
+      "color": "blue",
+      "category": "blueprint"
+    },
+    {
+      "id": "38db8560-6a4b-46c0-98c3-c6407ebca094",
+      "imageUrl": "images/Vault_Icon.png",
+      "name": "Vault",
+      "chess": "rook",
+      "color": "blue",
+      "category": "blueprint"
+    },
+    {
+      "id": "d1a063cd-6d71-4bde-9e38-dfe27cc8af77",
+      "imageUrl": "images/Office_Icon.png",
+      "name": "Office",
+      "chess": "king",
+      "color": "blue",
+      "category": "blueprint"
+    },
+    {
+      "id": "65ce9ed2-8d03-45fa-bce6-8ff90cdda182",
+      "imageUrl": "images/Drawing_Room_Icon.png",
+      "name": "Drawing Room",
+      "chess": "Pawn",
+      "color": "blue",
+      "category": "blueprint"
+    },
+    {
+      "id": "924affbe-a78a-49fa-b64a-9d90727c6a9a",
+      "imageUrl": "images/Study_Icon.png",
+      "name": "Study",
+      "chess": "queen",
+      "color": "blue",
+      "category": "blueprint"
+    },
+    {
+      "id": "4ae9907d-182c-4dd2-bb23-a6c3299128a2",
+      "imageUrl": "images/Library_Icon.png",
+      "name": "Lbrary",
+      "chess": null,
+      "color": "blue",
+      "category": "blueprint"
+    },
+    {
+      "id": "e9cb22f9-35d0-4704-a3fd-f5977dfd6649",
+      "imageUrl": "images/Chamber_of_Mirrors_Icon.png",
+      "name": "Chamber Of Mirrors",
+      "chess": null,
+      "color": "blue",
+      "category": "blueprint"
+    },
+    {
+      "id": "37626895-1037-45cc-8978-8db8fc10e8e8",
+      "imageUrl": "images/The_Pool_Icon.png",
+      "name": "The Pool",
+      "chess": null,
+      "color": "blue",
+      "category": "blueprint"
+    },
+    {
+      "id": "8cda6d77-7b49-491a-88a7-1a691dff2154",
+      "imageUrl": "images/Drafting_Studio_Icon.png",
+      "name": "Drafting Studio",
+      "chess": "pawn",
+      "color": "blue",
+      "category": "blueprint"
+    },
+    {
+      "id": "26acdd54-7275-4a78-8578-931701c9bc07",
+      "imageUrl": "images/Utility_Closet_Icon.png",
+      "name": "Utility Closet",
+      "chess": null,
+      "color": "blue",
+      "category": "blueprint"
+    },
+    {
+      "id": "6df5ef4b-7f76-4f2d-814c-1ef1ac677db4",
+      "imageUrl": "images/Boiler_Room_Icon.png",
+      "name": "Boiler Room",
+      "chess": null,
+      "color": "blue",
+      "category": "blueprint"
+    },
+    {
+      "id": "ff70d779-c33c-4e58-b857-970889aa08f2",
+      "imageUrl": "images/Pump_Room_Icon.png",
+      "name": "Pump Room",
+      "chess": null,
+      "color": "blue",
+      "category": "blueprint"
+    },
+    {
+      "id": "2132fa40-87f5-47c1-9684-37d4567dc086",
+      "imageUrl": "images/Security_Icon.png",
+      "name": "Security",
+      "chess": "knight",
+      "color": "blue",
+      "category": "blueprint"
+    },
+    {
+      "id": "1643bdaf-b2fe-4042-b581-07eb3b678a43",
+      "imageUrl": "images/Workshop_Icon.png",
+      "name": "Workshop",
+      "chess": null,
+      "color": "blue",
+      "category": "blueprint"
+    },
+    {
+      "id": "52151f58-52f0-4582-8e5a-20183e226504",
+      "imageUrl": "images/Laboratory_Icon.png",
+      "name": "Laboratory",
+      "chess": null,
+      "color": "blue",
+      "category": "blueprint"
+    },
+    {
+      "id": "7d2abda8-709a-4aa2-bdd8-492d80ba3d02",
+      "imageUrl": "images/Sauna_Icon.png",
+      "name": "Sauna",
+      "chess": null,
+      "color": "blue",
+      "category": "blueprint"
+    },
+    {
+      "id": "54382481-3bb6-4da4-bcd0-8240546255d8",
+      "imageUrl": "images/Coat_Check_Icon.png",
+      "name": "Coat Check",
+      "chess": null,
+      "color": "blue",
+      "category": "blueprint"
+    },
+    {
+      "id": "07a17624-9e52-442f-8940-79dd6ef611ed",
+      "imageUrl": "images/Mail_Room_Icon.png",
+      "name": "Mail Room",
+      "chess": null,
+      "color": "blue",
+      "category": "blueprint"
+    },
+    {
+      "id": "76757e83-80ba-44ba-8899-f71b81831059",
+      "imageUrl": "images/Freezer_Icon.png",
+      "name": "Freezer",
+      "chess": "pawn",
+      "color": "blue",
+      "category": "blueprint"
+    },
+    {
+      "id": "66e430c8-6350-466c-8162-6c294c8e4ab1",
+      "imageUrl": "images/Dining_Room_Icon.png",
+      "name": "Dining Room",
+      "chess": "pawn",
+      "color": "blue",
+      "category": "blueprint"
+    },
+    {
+      "id": "db44514e-fa10-4bb9-806f-7cee0ced3c30",
+      "imageUrl": "images/Observatory_Icon.png",
+      "name": "Observatory",
+      "chess": "knight",
+      "color": "blue",
+      "category": "blueprint"
+    },
+    {
+      "id": "db0ba2bd-bf4d-4f5d-8fdd-119752480af2",
+      "imageUrl": "images/Conference_Room_Icon.png",
+      "name": "Conference Room",
+      "chess": null,
+      "color": "blue",
+      "category": "blueprint"
+    },
+    {
+      "id": "f0b11fa2-afc5-4fa6-9f58-515c12c0bebf",
+      "imageUrl": "images/Aquarium_Icon.png",
+      "name": "Aquarium",
+      "chess": null,
+      "color": "blue",
+      "category": "blueprint"
+    },
+    {
+      "id": "5536c904-794e-4055-ba50-7450e50c90ba",
+      "imageUrl": "images/Antechamber_Icon.png",
+      "name": "Antechamber",
+      "chess": null,
+      "color": "blue",
+      "category": "blueprint"
+    },
+    {
+      "id": "bb071b50-1bee-4d45-95e1-fc24ec3b9f9e",
+      "imageUrl": "images/Room_46_Icon.png",
+      "name": "Room 46",
+      "chess": null,
+      "color": "blue",
+      "category": "blueprint"
+    },
+    {
+      "id": "a592cf46-5707-47a7-a45e-272a4772b4fc",
+      "imageUrl": "images/Bedroom_Icon.png",
+      "name": "Bedroom",
+      "chess": "pawn",
+      "color": "purple",
+      "category": "bedroom"
+    },
+    {
+      "id": "82f2796f-ddb6-4ea8-81b7-562e36179138",
+      "imageUrl": "images/Boudoir_Icon.png",
+      "name": "Boudoir",
+      "chess": null,
+      "color": "purple",
+      "category": "bedroom"
+    },
+    {
+      "id": "5841d7fe-8b0d-4d06-ac00-2320e55809ed",
+      "imageUrl": "images/Guest_Bedroom_Icon.png",
+      "name": "Guest Bedroom",
+      "chess": "pawn",
+      "color": "purple",
+      "category": "bedroom"
+    },
+    {
+      "id": "28c73334-1e22-4d7a-b33c-952124256759",
+      "imageUrl": "images/Nursery_Icon.png",
+      "name": "Nursery",
+      "chess": "pawn",
+      "color": "purple",
+      "category": "bedroom"
+    },
+    {
+      "id": "600a5685-e1c3-4660-819b-f8831410e5ce",
+      "imageUrl": "images/Servants_Quarters_Icon.png",
+      "name": "Servant's Quarters",
+      "chess": null,
+      "color": "purple",
+      "category": "bedroom"
+    },
+    {
+      "id": "9a5df67b-e5c2-48be-a9a3-42774eb859ce",
+      "imageUrl": "images/Bunk_Room_Icon.png",
+      "name": "Bunk Room",
+      "chess": "pawn",
+      "color": "purple",
+      "category": "bedroom"
+    },
+    {
+      "id": "a28d6ad4-fd3d-42f3-8481-b99c8d18c630",
+      "imageUrl": "images/Her_Ladyships_Chamber_Icon.png",
+      "name": "Her Ladyship's Chamber",
+      "chess": "queen",
+      "color": "purple",
+      "category": "bedroom"
+    },
+    {
+      "id": "ae05d02d-24d5-4eaf-b725-8d8dd52753eb",
+      "imageUrl": "images/Master_Bedroom_Icon.png",
+      "name": "Master Bedroom",
+      "chess": null,
+      "color": "purple",
+      "category": "bedroom"
+    },
+    {
+      "id": "6a6eeb30-e692-4746-af63-d40c7119704d",
+      "imageUrl": "images/Hallway_Icon.png",
+      "name": "Hallway",
+      "chess": null,
+      "color": "orange",
+      "category": "hallway"
+    },
+    {
+      "id": "cc87ead2-aa9c-4c1a-9183-50dcf1458147",
+      "imageUrl": "images/West_Wing_Hall_Icon.png",
+      "name": "West Wing Hall",
+      "chess": null,
+      "color": "orange",
+      "category": "hallway"
+    },
+    {
+      "id": "f91e58cd-beb5-45fd-b546-43b16914cb90",
+      "imageUrl": "images/East_Wing_Hall_Icon.png",
+      "name": "East Wing Hall",
+      "chess": null,
+      "color": "orange",
+      "category": "hallway"
+    },
+    {
+      "id": "1b631393-e2e6-4573-bc33-a95b5e3ddc9b",
+      "imageUrl": "images/Corridor_Icon.png",
+      "name": "Corridor",
+      "chess": null,
+      "color": "orange",
+      "category": "hallway"
+    },
+    {
+      "id": "5ee7d091-e3c4-4016-85fa-92dbc290f746",
+      "imageUrl": "images/Passageway_Icon.png",
+      "name": "Passageway",
+      "chess": null,
+      "color": "orange",
+      "category": "hallway"
+    },
+    {
+      "id": "21ea2a74-cc83-4ce2-aa60-4dda3c52ac19",
+      "imageUrl": "images/Secret_Passage_Icon.png",
+      "name": "Secret Passage",
+      "chess": "pawn",
+      "color": "orange",
+      "category": "hallway"
+    },
+    {
+      "id": "d52eaaa1-29da-49e1-aeda-ab19ca1063de",
+      "imageUrl": "images/Foyer_Icon.png",
+      "name": "Foyer",
+      "chess": null,
+      "color": "orange",
+      "category": "hallway"
+    },
+    {
+      "id": "4538b8d6-6cc1-4e1c-99b5-6b7dd1bd66f7",
+      "imageUrl": "images/Great_Hall_Icon.png",
+      "name": "Great Hall",
+      "chess": null,
+      "color": "orange",
+      "category": "hallway"
+    },
+    {
+      "id": "02d7fa23-06f3-4679-8532-7191e9e3d28e",
+      "imageUrl": "images/Terrace_Icon.png",
+      "name": "Terrace",
+      "chess": null,
+      "color": "green",
+      "category": "Green Room"
+    },
+    {
+      "id": "dac9237f-21b1-442c-8f39-ad78e5623aba",
+      "imageUrl": "images/Patio_Icon.png",
+      "name": "Patio",
+      "chess": null,
+      "color": "green",
+      "category": "Green Room"
+    },
+    {
+      "id": "ed0136cb-9747-4727-9df2-56d294d706c1",
+      "imageUrl": "images/Courtyard_Icon.png",
+      "name": "Courtyard",
+      "chess": null,
+      "color": "green",
+      "category": "Green Room"
+    },
+    {
+      "id": "652beb64-72e2-409b-a7e0-416446d36fba",
+      "imageUrl": "images/Cloister_Icon.png",
+      "name": "Cloister",
+      "chess": null,
+      "color": "green",
+      "category": "Green Room"
+    },
+    {
+      "id": "29194aad-d5c7-4f61-a61e-7ee1444542b1",
+      "imageUrl": "images/Veranda_Icon.png",
+      "name": "Veranda",
+      "chess": null,
+      "color": "green",
+      "category": "Green Room"
+    },
+    {
+      "id": "b2167fb6-de9a-428c-a8cb-995acc9cc374",
+      "imageUrl": "images/Greenhouse_Icon.png",
+      "name": "Greenhouse",
+      "chess": null,
+      "color": "green",
+      "category": "Green Room"
+    },
+    {
+      "id": "06a39df9-9ebe-4b2a-b6d9-5ca6c038bb56",
+      "imageUrl": "images/Morning_Room_Icon.png",
+      "name": "Morning Room",
+      "chess": null,
+      "color": "green",
+      "category": "Green Room"
+    },
+    {
+      "id": "f679f400-c3dd-4a9c-a7d9-7173fc1d51ee",
+      "imageUrl": "images/Secret_Garden_Icon.png",
+      "name": "Secret Garden",
+      "chess": null,
+      "color": "green",
+      "category": "Green Room"
+    },
+    {
+      "id": "b4c40db8-9fcf-4fed-b56f-689661ee7987",
+      "imageUrl": "images/Commissary_Icon.png",
+      "name": "Commissary",
+      "chess": null,
+      "color": "yellow",
+      "category": "Shop"
+    },
+    {
+      "id": "c9563075-77ef-4be3-b428-25678f4301a2",
+      "imageUrl": "images/Kitchen_Icon.png",
+      "name": "Kitchen",
+      "chess": null,
+      "color": "yellow",
+      "category": "Shop"
+    },
+    {
+      "id": "830bdbd2-8fea-42c8-a27e-4065983201d4",
+      "imageUrl": "images/Locksmith_Icon.png",
+      "name": "Locksmith",
+      "chess": null,
+      "color": "yellow",
+      "category": "Shop"
+    },
+    {
+      "id": "8693841c-f366-4efb-9b37-8cf36e088888",
+      "imageUrl": "images/Showroom_Icon.png",
+      "name": "Showroom",
+      "chess": null,
+      "color": "yellow",
+      "category": "Shop"
+    },
+    {
+      "id": "fcf92526-694d-4f09-bdb5-767eb04b78e9",
+      "imageUrl": "images/Laundry_Room_Icon.png",
+      "name": "Laundry Room",
+      "chess": null,
+      "color": "yellow",
+      "category": "Shop"
+    },
+    {
+      "id": "53386ce0-ba07-42ee-899f-fd177bea8623",
+      "imageUrl": "images/Bookshop_Icon.png",
+      "name": "Bookshop",
+      "chess": "bishop",
+      "color": "yellow",
+      "category": "Shop"
+    },
+    {
+      "id": "210368b5-f89b-4559-8ec3-df2506d3b3dc",
+      "imageUrl": "images/The_Armory_Icon.png",
+      "name": "The Armory",
+      "chess": "knight",
+      "color": "yellow",
+      "category": "Shop"
+    },
+    {
+      "id": "a2c30f5e-eecb-429c-afc7-7fdef7f7a3e3",
+      "imageUrl": "images/Mount_Holly_Gift_Shop_Icon.png",
+      "name": "Mount Holly Gift Shop",
+      "chess": null,
+      "color": "yellow",
+      "category": "Shop"
+    },
+    {
+      "id": "795d1b4c-67e4-4c13-9def-12fe5a16f2c8",
+      "imageUrl": "images/Lavatory_Icon.png",
+      "name": "Lavatory",
+      "chess": null,
+      "color": "red",
+      "category": "Red Room"
+    },
+    {
+      "id": "df1c211a-de5f-4d49-9586-85e8e0566879",
+      "imageUrl": "images/Chapel_Icon.png",
+      "name": "Chapel",
+      "chess": "bishop",
+      "color": "red",
+      "category": "Red Room"
+    },
+    {
+      "id": "b13a4daf-c6c5-4d50-a0d1-f0f347b8ca9f",
+      "imageUrl": "images/Maids_Chamber_Icon.png",
+      "name": "Maid's Chamber",
+      "chess": null,
+      "color": "red",
+      "category": "Red Room"
+    },
+    {
+      "id": "5bd1f126-e5a9-4b44-baa0-df49286ef374",
+      "imageUrl": "images/Archives_Icon.png",
+      "name": "Archives",
+      "chess": null,
+      "color": "red",
+      "category": "Red Room"
+    },
+    {
+      "id": "f6a8a8b0-6b24-4b03-bb3c-8a582b664527",
+      "imageUrl": "images/Gymnasium_Icon.png",
+      "name": "Gymnasium",
+      "chess": null,
+      "color": "red",
+      "category": "Red Room"
+    },
+    {
+      "id": "5f08e3b1-47c7-42f2-a9da-48b18685ba8b",
+      "imageUrl": "images/Darkroom_Icon.png",
+      "name": "Darkroom",
+      "chess": null,
+      "color": "red",
+      "category": "Red Room"
+    },
+    {
+      "id": "777e8d1f-295a-4afb-837a-6e2349a7b22e",
+      "imageUrl": "images/Weight_Room_Icon.png",
+      "name": "Weight Room",
+      "chess": null,
+      "color": "red",
+      "category": "Red Room"
+    },
+    {
+      "id": "21e13590-602e-401b-a2ad-278bfea3859c",
+      "imageUrl": "images/Furnace_Icon.png",
+      "name": "Furnace",
+      "chess": null,
+      "color": "red",
+      "category": "Red Room"
+    },
+    {
+      "id": "c42ff4ea-f514-4ddd-84b8-e097a39b97f8",
+      "imageUrl": "images/Dovecote_Icon.png",
+      "name": "Dovecote",
+      "chess": null,
+      "color": "blue",
+      "category": "blueprint"
+    },
+    {
+      "id": "f16ff56a-62a4-44fb-a41c-6cd5fe5441b8",
+      "imageUrl": "images/The_Kennel_Icon.png",
+      "name": "The Kennel",
+      "chess": null,
+      "color": "blue",
+      "category": "blueprint"
+    },
+    {
+      "id": "7c522ad1-ca74-4679-a224-2a4a02e52887",
+      "imageUrl": "images/Clock_Tower_Icon.png",
+      "name": "Clock Tower",
+      "chess": null,
+      "color": "blue",
+      "category": "blueprint"
+    },
+    {
+      "id": "101bd227-daa5-4786-9f54-11889eb5e162",
+      "imageUrl": "images/Classroom_Icon.png",
+      "name": "Classroom",
+      "chess": null,
+      "color": "blue",
+      "category": "blueprint"
+    },
+    {
+      "id": "fcc7e40c-80f1-48d2-9f7b-b13dd20d5481",
+      "imageUrl": "images/Solarium_Icon.png",
+      "name": "Solarium",
+      "chess": "pawn",
+      "color": "green",
+      "category": "Green Room"
+    },
+    {
+      "id": "2472fceb-ebfc-4ef2-b438-f83c358ab6d7",
+      "imageUrl": "images/Dormitory_Icon.png",
+      "name": "Dormitory",
+      "chess": "pawn",
+      "color": "purple",
+      "category": "bedroom"
+    },
+    {
+      "id": "93474551-aa79-4a50-8123-e0e89e781750",
+      "imageUrl": "images/Vestibule_Icon.png",
+      "name": "Vestibule",
+      "chess": null,
+      "color": "orange",
+      "category": "hallway"
+    },
+    {
+      "id": "cec02fba-6371-494e-862c-67c055b30584",
+      "imageUrl": "images/Casino_Icon.png",
+      "name": "Casino",
+      "chess": null,
+      "color": "yellow",
+      "category": "Shop"
+    },
+    {
+      "id": "8b51abab-b646-427e-9938-1b8825562a97",
+      "imageUrl": "images/Planetarium_Icon.png",
+      "name": "Planetarium",
+      "chess": null,
+      "color": "blue",
+      "category": "blueprint"
+    },
+    {
+      "id": "f2cf8bc0-378c-4639-b367-359393ddfe97",
+      "imageUrl": "images/Mechanarium_Icon.png",
+      "name": "Mechanarium",
+      "chess": null,
+      "color": "blue",
+      "category": "blueprint"
+    },
+    {
+      "id": "32ba7bb0-d820-48c5-b26a-a3dbd023d08b",
+      "imageUrl": "images/Treasure_Trove_Icon.png",
+      "name": "Treasure Trove",
+      "chess": "knight",
+      "color": "black",
+      "category": "blackprint"
+    },
+    {
+      "id": "ac307530-6b39-4ee7-8cde-a74b717bce2e",
+      "imageUrl": "images/Throne_Room_Icon.png",
+      "name": "Throne Room",
+      "chess": "king",
+      "color": "black",
+      "category": "blackprint"
+    },
+    {
+      "id": "6f122e2d-cda2-4650-af56-7f1cfd7f9664",
+      "imageUrl": "images/Tunnel_Icon.png",
+      "name": "Tunnel",
+      "chess": null,
+      "color": "orange",
+      "category": "hallway"
+    },
+    {
+      "id": "57dd4579-01ee-4087-8b3f-83f31de591a7",
+      "imageUrl": "images/Conservatory_Icon.png",
+      "name": "Conservatory",
+      "chess": "rook",
+      "color": "green",
+      "category": "Green Room"
+    },
+    {
+      "id": "84b55ba9-60e5-4845-bb33-7ae77dc730b4",
+      "imageUrl": "images/Lost_and_Found_Icon.png",
+      "name": "Lost & Found",
+      "chess": "pawn",
+      "color": "red",
+      "category": "Red Room"
+    },
+    {
+      "id": "5d8094ba-cf72-4da8-968d-5512894e5a90",
+      "imageUrl": "images/Closed_Exhibit_Icon.png",
+      "name": "Closed Exhibit",
+      "chess": null,
+      "color": "red",
+      "category": "Red Room"
+    },
+    {
+      "id": "7afc887d-352c-48ff-ae5b-f67f7871c356",
+      "imageUrl": "images/Throne_Of_The_Blue_Prince_Icon.png",
+      "name": "Throne of the Blue Prince",
+      "chess": "king",
+      "color": "blue",
+      "category": "blueprint"
+    }
+  ]
+}

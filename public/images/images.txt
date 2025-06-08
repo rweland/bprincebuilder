@@ -1,0 +1,8 @@
+Hovel_Icon.png
+Root_Cellar_Icon.png
+Schoolhouse_Icon.png
+Shelter_Icon.png
+Shrine_Icon.png
+Tomb_Icon.png
+Toolshed_Icon.png
+Trading_Post_Icon.png
