@@ -1,4 +1,4 @@
-#WARNING: Potential spoilers for Blue Prince game mechanics and rooms!
+# WARNING: Potential spoilers for Blue Prince game mechanics and rooms!
 
 # Blue Prince Floorplan Builder
 
