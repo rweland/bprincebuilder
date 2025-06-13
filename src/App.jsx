@@ -64,7 +64,7 @@ function App() {
 
   // Fetch room data on component mount
   useEffect(() => {
-    fetch('/roomdata.json')
+    fetch(`${import.meta.env.BASE_URL}/roomdata.json`)
       .then(response => response.json())
       .then(data => {
         setRooms(data.rooms);
