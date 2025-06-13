@@ -1,6 +1,4 @@
-<font size=6>WARNING:
-<br />
-Potential spoilers for Blue Prince game mechanics and rooms!</font>
+# WARNING: Potential spoilers for Blue Prince game mechanics and rooms!
 
 # Blue Prince Floorplan Builder
 
@@ -9,7 +7,7 @@ An interactive tool for creating and visualizing floor plans for the Blue Prince
 ![Blue Prince Floorplan Builder](/screenshots/main.png)
 
 ## Try it!
-You can try the live version of the Blue Prince Floorplan Builder  [Blue Prince Layout Builder](https://bprincebuilder.rweland.github.com). (REPLACE THIS)
+You can try the live version of the Blue Prince Floorplan Builder  [Blue Prince Layout Builder](https://bprincebuilder.rweland.github.com). (Coming soon)
 
 ## Features
 
@@ -31,8 +29,8 @@ You can try the live version of the Blue Prince Floorplan Builder  [Blue Prince 
 
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/blueprince-chess.git
-cd blueprince-chess
+git clone https://github.com/rweland/bprincebuilder.git
+cd bprincebuilder
 ```
 
 2. Install dependencies
