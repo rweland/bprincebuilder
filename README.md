@@ -7,7 +7,7 @@ An interactive tool for creating and visualizing floor plans for the Blue Prince
 ![Blue Prince Floorplan Builder](/screenshots/main.png)
 
 ## Try it!
-You can try the live version of the Blue Prince Floorplan Builder  [Blue Prince Layout Builder](https://rweland.github.io/bprincebuilder/). (Coming soon)
+You can try the live version of the Blue Prince Floorplan Builder  [Blue Prince Layout Builder](https://rweland.github.io/bprincebuilder/).
 
 ## Features
 
