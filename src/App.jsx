@@ -28,7 +28,11 @@ function App() {
   const { theme } = useTheme();
 
   // Define the bottom middle cell index (5 columns, 8 rows, bottom middle is in the 7th row, 2nd column)
-  const entranceHallIndex = 37; // (5 columns × 7 rows) + 2 = 37 (0-based indexing)
+  const hardcodedRooms = [
+    { id: 37, name: "Entrance Hall" },
+    { id: 2, name: "Antechamber" },
+    // Add more hardcoded rooms as needed
+  ];
 
   // State for the 5x8 grid
   const [grid, setGrid] = useState(() => {
@@ -71,15 +75,20 @@ function App() {
         setFilteredRooms(data.rooms);
         setIsLoading(false);
 
-        // Find the Entrance Hall and place it in the bottom middle cell
-        const entranceHall = data.rooms.find(room => room.name === "Entrance Hall");
-        if (entranceHall) {
-          setGrid(prevGrid => {
-            const newGrid = [...prevGrid];
-            newGrid[entranceHallIndex] = entranceHall;
-            return newGrid;
-          });
-        }
+
+        // Update the grid with both rooms
+        setGrid(prevGrid => {
+          const newGrid = [...prevGrid];
+          hardcodedRooms.forEach(staticRoom => {
+            const room = data.rooms.find(dataRoom => dataRoom.name === staticRoom.name);
+            if (!room) {
+              console.warn(`Room ${staticRoom.name} not found in data.`);
+              return;
+            }
+            newGrid[staticRoom.id] = room;
+          })
+          return newGrid;
+        });
       })
       .catch(error => {
         console.error('Error loading room data:', error);
@@ -141,8 +150,8 @@ function App() {
 
   // Handle grid cell click to place selected room
   const handleGridCellClick = (index) => {
-    // Don't allow placing a room on the Entrance Hall cell
-    if (index === entranceHallIndex) {
+    // Don't allow placing a room on the Entrance Hall cell or Antechamber cell
+    if (hardcodedRooms.some(room => room.id === index)) {
       return;
     }
 
@@ -158,8 +167,8 @@ function App() {
   const handleRemoveRoom = (index, event) => {
     event.stopPropagation(); // Prevent triggering cell click
 
-    // Don't allow removing the Entrance Hall
-    if (index === entranceHallIndex) {
+    // Don't allow removing the Entrance Hall or Antechamber
+    if (hardcodedRooms.some(room => room.id === index)) {
       return;
     }
 
@@ -183,6 +192,11 @@ function App() {
   // Handle rotating a room in the grid
   const handleRotateRoom = (index, direction, event) => {
     event.stopPropagation(); // Prevent triggering cell click
+
+    // Ignore any hardcoded rooms
+    if (hardcodedRooms.some(room => room.id === index)) {
+      return;
+    }
 
     setRotations(prevRotations => {
       const newRotations = [...prevRotations];
@@ -212,8 +226,8 @@ function App() {
   };
 
   const handleDragOver = (e, index) => {
-    // Don't allow dropping on the Entrance Hall cell
-    if (index === entranceHallIndex) {
+    // Don't allow dropping on the Entrance Hall cell or Antechamber cell
+    if (hardcodedRooms.some(room => room.id === index)) {
       return;
     }
 
@@ -230,8 +244,8 @@ function App() {
     e.preventDefault();
     setDragOverIndex(null);
 
-    // Don't allow dropping on the Entrance Hall cell
-    if (index === entranceHallIndex) {
+    // Don't allow dropping on the Entrance Hall cell or Antechamber cell
+    if (hardcodedRooms.some(room => room.id === index)) {
       return;
     }
 
@@ -287,7 +301,7 @@ function App() {
           theme={theme}
           grid={grid}
           rotations={rotations}
-          entranceHallIndex={entranceHallIndex}
+          hardcodedRooms={hardcodedRooms}
           dragOverIndex={dragOverIndex}
           handleGridCellClick={handleGridCellClick}
           handleDragOver={handleDragOver}

@@ -20,88 +20,88 @@ import ChessPieceDisplay from '../ChessPieceDisplay';
  * @param {Function} props.getChessPiecesAvailability - Function to get chess piece availability
  */
 const GridSection = ({
-    theme,
-    grid,
-    rotations,
-    entranceHallIndex,
-    dragOverIndex,
-    handleGridCellClick,
-    handleDragOver,
-    handleDragLeave,
-    handleDrop,
-    handleRemoveRoom,
-    handleRotateRoom,
-    getChessPiecesAvailability
+  theme,
+  grid,
+  rotations,
+  hardcodedRooms,
+  dragOverIndex,
+  handleGridCellClick,
+  handleDragOver,
+  handleDragLeave,
+  handleDrop,
+  handleRemoveRoom,
+  handleRotateRoom,
+  getChessPiecesAvailability
 }) => {
-    return (
-        <GridSectionContainer theme={theme}>
-            <Header theme={theme}>Room Grid Layout</Header>
-            <Instructions theme={theme}>
-                Select a room from the right panel, then click on a grid cell to place it.
-                You can also drag rooms directly from the search panel to the grid.
-                Click the red X button to remove a room from the grid.
-                Use the rotation buttons to rotate rooms clockwise or counterclockwise.
-            </Instructions>
-            <Grid>
-                {grid.map((cell, index) => (
-                    <GridCell
-                        key={index}
-                        hasRoom={cell !== null}
-                        onClick={() => handleGridCellClick(index)}
-                        theme={theme}
-                        className={dragOverIndex === index ? 'drag-over' : ''}
-                        onDragOver={(e) => handleDragOver(e, index)}
-                        onDragLeave={handleDragLeave}
-                        onDrop={(e) => handleDrop(e, index)}
-                        imageUrl={cell ? cell.imageUrl : null}
-                        rotation={rotations[index]}
+  return (
+    <GridSectionContainer theme={theme}>
+      <Header theme={theme}>Room Grid Layout</Header>
+      <Instructions theme={theme}>
+        Select a room from the right panel, then click on a grid cell to place it.
+        You can also drag rooms directly from the search panel to the grid.
+        Click the red X button to remove a room from the grid.
+        Use the rotation buttons to rotate rooms clockwise or counterclockwise.
+      </Instructions>
+      <Grid>
+        {grid.map((cell, index) => (
+          <GridCell
+            key={index}
+            hasRoom={cell !== null}
+            onClick={() => handleGridCellClick(index)}
+            theme={theme}
+            className={dragOverIndex === index ? 'drag-over' : ''}
+            onDragOver={(e) => handleDragOver(e, index)}
+            onDragLeave={handleDragLeave}
+            onDrop={(e) => handleDrop(e, index)}
+            imageUrl={cell ? cell.imageUrl : null}
+            rotation={rotations[index]}
+          >
+            {cell ? (
+              <>
+                {cell.chess && <span style={{ fontSize: '14px' }}>{
+                  cell.chess.toLowerCase() === 'king' ? '♚' :
+                    cell.chess.toLowerCase() === 'queen' ? '♛' :
+                      cell.chess.toLowerCase() === 'rook' ? '♜' :
+                        cell.chess.toLowerCase() === 'bishop' ? '♝' :
+                          cell.chess.toLowerCase() === 'knight' ? '♞' :
+                            cell.chess.toLowerCase() === 'pawn' ? '♟' : '♟'
+                } {cell.chess}</span>}
+                {/* Only show remove button if this is not the Entrance Hall cell */}
+                {!hardcodedRooms.some(x => x.id === index) &&
+                  <RemoveButton onClick={(e) => handleRemoveRoom(index, e)}>×</RemoveButton>
+                }
+                {/* Only show rotation buttons if this is not the Entrance Hall cell */}
+                {!hardcodedRooms.some(x => x.id === index) && (
+                  <>
+                    <RotateLeftButton
+                      theme={theme}
+                      onClick={(e) => handleRotateRoom(index, 'left', e)}
+                      title="Rotate counterclockwise"
                     >
-                        {cell ? (
-                            <>
-                                {cell.chess && <span style={{ fontSize: '14px' }}>{
-                                    cell.chess.toLowerCase() === 'king' ? '♚' :
-                                        cell.chess.toLowerCase() === 'queen' ? '♛' :
-                                            cell.chess.toLowerCase() === 'rook' ? '♜' :
-                                                cell.chess.toLowerCase() === 'bishop' ? '♝' :
-                                                    cell.chess.toLowerCase() === 'knight' ? '♞' :
-                                                        cell.chess.toLowerCase() === 'pawn' ? '♟' : '♟'
-                                } {cell.chess}</span>}
-                                {/* Only show remove button if this is not the Entrance Hall cell */}
-                                {index !== entranceHallIndex &&
-                                    <RemoveButton onClick={(e) => handleRemoveRoom(index, e)}>×</RemoveButton>
-                                }
-                                {/* Only show rotation buttons if this is not the Entrance Hall cell */}
-                                {index !== entranceHallIndex && (
-                                    <>
-                                        <RotateLeftButton
-                                            theme={theme}
-                                            onClick={(e) => handleRotateRoom(index, 'left', e)}
-                                            title="Rotate counterclockwise"
-                                        >
-                                            ↺
-                                        </RotateLeftButton>
-                                        <RotateRightButton
-                                            theme={theme}
-                                            onClick={(e) => handleRotateRoom(index, 'right', e)}
-                                            title="Rotate clockwise"
-                                        >
-                                            ↻
-                                        </RotateRightButton>
-                                    </>
-                                )}
-                            </>
-                        ) : (
-                            <RoomName theme={theme}>Empty Cell</RoomName>
-                        )}
-                    </GridCell>
-                ))}
-            </Grid>
-            <ChessPieceDisplay
-                theme={theme}
-                pieces={getChessPiecesAvailability()}
-            />
-        </GridSectionContainer>
-    );
+                      ↺
+                    </RotateLeftButton>
+                    <RotateRightButton
+                      theme={theme}
+                      onClick={(e) => handleRotateRoom(index, 'right', e)}
+                      title="Rotate clockwise"
+                    >
+                      ↻
+                    </RotateRightButton>
+                  </>
+                )}
+              </>
+            ) : (
+              <RoomName theme={theme}>Empty Cell</RoomName>
+            )}
+          </GridCell>
+        ))}
+      </Grid>
+      <ChessPieceDisplay
+        theme={theme}
+        pieces={getChessPiecesAvailability()}
+      />
+    </GridSectionContainer>
+  );
 };
 
 // Styled components
@@ -147,11 +147,11 @@ const GridCell = styled.div`
   width: 93px;
   height: 93px;
   background-color: ${props => {
-        if (props.hasRoom) {
-            return props.theme === 'dark' ? darkTheme.cardBackground : lightTheme.cardBackground;
-        }
-        return props.theme === 'dark' ? darkTheme.emptyCellBackground : lightTheme.emptyCellBackground;
-    }};
+    if (props.hasRoom) {
+      return props.theme === 'dark' ? darkTheme.cardBackground : lightTheme.cardBackground;
+    }
+    return props.theme === 'dark' ? darkTheme.emptyCellBackground : lightTheme.emptyCellBackground;
+  }};
   background-image: ${props => props.imageUrl ? `url(${props.imageUrl})` : 'none'};
   background-size: cover;
   background-position: center;
@@ -172,22 +172,22 @@ const GridCell = styled.div`
   
   &:hover {
     background-color: ${props => {
-        if (props.hasRoom) {
-            return props.theme === 'dark' ? darkTheme.cardBackground : lightTheme.cardBackground;
-        }
-        return props.theme === 'dark' ? darkTheme.emptyCellHoverBackground : lightTheme.emptyCellHoverBackground;
-    }};
+    if (props.hasRoom) {
+      return props.theme === 'dark' ? darkTheme.cardBackground : lightTheme.cardBackground;
+    }
+    return props.theme === 'dark' ? darkTheme.emptyCellHoverBackground : lightTheme.emptyCellHoverBackground;
+  }};
     box-shadow: 0 2px 8px ${props => props.theme === 'dark' ? darkTheme.shadowColor : lightTheme.shadowColor};
   }
   
   &.drag-over {
     border: 2px dashed ${props => props.theme === 'dark' ? darkTheme.primaryColor : lightTheme.primaryColor};
     background-color: ${props => {
-        if (props.theme === 'dark') {
-            return 'rgba(77, 171, 245, 0.1)';
-        }
-        return 'rgba(33, 150, 243, 0.1)';
-    }};
+    if (props.theme === 'dark') {
+      return 'rgba(77, 171, 245, 0.1)';
+    }
+    return 'rgba(33, 150, 243, 0.1)';
+  }};
   }
 `;
 
